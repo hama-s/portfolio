@@ -1,0 +1,99 @@
+html {
+  font-family: 'Sawarabi Gothic', sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  overscroll-behavior: none;
+  position: relative;
+  z-index: 0;
+  color: #342b28;
+  min-height: 100vh;
+  width: 100%;
+}
+
+.container {
+  overflow: hidden;
+  width: 900px;
+  margin: 0 auto;
+  
+}
+
+#first-look {
+  background-color: #ffff;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+}
+
+header p {
+  font-size: small;
+  margin: 0;
+}
+
+.box {
+  margin-right: auto;
+}
+
+.my, .works {
+  font-size: calc(2em + 1vw);
+  padding: 10px;
+  letter-spacing: 1em;
+}
+
+.awkward {
+  font-size: calc(2em + 1vw);
+  padding: 20px;
+  letter-spacing: 1em;
+  color: #b2aaa1;
+}
+
+img {
+  width: 900px;
+  height: 600px;
+  margin: 0 auto;
+}
+
+figure {
+  width: 900px;
+  height: 600px;
+  position: relative;
+  margin: 0 auto;
+  margin-bottom: 30px;
+  overflow: hidden;
+  }
+
+figcaption {
+  letter-spacing: 1.1em;
+  text-align: center;
+  padding-top: 280px;
+  color: #fff;
+  }
+
+.mask {
+  width: 100%;
+	height: 100%;
+	position: absolute;	
+	top: 0;
+	left: 0;
+	opacity: 0;
+	background-color:	rgba(0,0,0,0.4);
+	-webkit-transition:	all 0.2s ease;
+	transition:		all 0.2s ease;
+}
+
+figure:hover .mask  {
+  opacity: 1;
+}
+
+.text_area {
+  width: 900px;
+  margin: 0 auto;
+}
+
+.text_area p {
+  text-align: left;
+  margin-top: 0;
+}
+
